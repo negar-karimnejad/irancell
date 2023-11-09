@@ -24,6 +24,32 @@ Media Queries
     width: 5rem;
     height: 5rem;
   }
+  .swiper-slide3 {
+    width: 28rem !important;
+  }
+  .navbar__search:hover .navbar__search-box {
+    width: 25rem;
+    opacity: 1;
+  }
+  .swiper1 {
+    margin-top: 1rem;
+  }
+  .swiper-slide1 {
+    width: 50px !important;
+    height: 10px !important;
+    padding: 1rem;
+    padding-bottom: 1.7rem;
+  }
+  .navbar__search-box span {
+    font-size: 1.2rem;
+    margin-right: 1rem;
+  }
+  .navbar__search-box input {
+    margin-bottom: 1rem;
+  }
+  .description-tabs {
+    padding: 0;
+  }
 }
 
 @media (max-width: 576px) {
@@ -105,7 +131,7 @@ Media Queries
     display: flex;
   }
   .swiper-slide3 {
-    width: 41rem !important;
+    /* width: 36rem !important; */
   }
   .swiper-slide3 h3 {
     font-size: 1rem;
@@ -224,6 +250,12 @@ Media Queries
   }
   .info-btn {
     margin-bottom: 1rem;
+  }
+  .bottom-link-dropdown-menu2 li a {
+    width: auto;
+  }
+  .bottom-link-dropdown-menu2 li a svg {
+    margin-left: 1rem;
   }
 }
 

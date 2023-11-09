@@ -331,7 +331,7 @@ header {
   border-radius: 1rem;
   overflow: hidden;
   transition: all 500ms ease-in-out;
-  z-index: 10;
+  z-index: 11;
 }
 
 .navbar__search-box input {

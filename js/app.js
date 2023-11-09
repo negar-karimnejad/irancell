@@ -13,18 +13,6 @@ const mobNavbarItem3 = $.querySelector(".mob-navbar__item3");
 const mobNavbarItem4 = $.querySelector(".mob-navbar__item4");
 const mobNavbarItem5 = $.querySelector(".mob-navbar__item5");
 const mobNavbarItem7 = $.querySelector(".mob-navbar__item7");
-const mobDropdownMenu1 = $.querySelector(".mob-dropdown-menu1");
-const mobDropdownMenu2 = $.querySelector(".mob-dropdown-menu2");
-const mobDropdownMenu3 = $.querySelector(".mob-dropdown-menu3");
-const mobDropdownMenu4 = $.querySelector(".mob-dropdown-menu4");
-const mobDropdownMenu5 = $.querySelector(".mob-dropdown-menu5");
-const mobDropdownMenu7 = $.querySelector(".mob-dropdown-menu7");
-const mobDropdownItemBack1 = $.querySelector(".mob-dropdown-item-back1");
-const mobDropdownItemBack2 = $.querySelector(".mob-dropdown-item-back2");
-const mobDropdownItemBack3 = $.querySelector(".mob-dropdown-item-back3");
-const mobDropdownItemBack4 = $.querySelector(".mob-dropdown-item-back4");
-const mobDropdownItemBack5 = $.querySelector(".mob-dropdown-item-back5");
-const mobDropdownItemBack7 = $.querySelector(".mob-dropdown-item-back7");
 
 const storeListPackages = $.querySelector(".store-list-packages");
 const storeListSimcart = $.querySelector(".store-list-simcart");
@@ -86,62 +74,6 @@ mobMenu.addEventListener("click", () => {
   mobMenuIcon3.classList.toggle("rotateNegative");
   mobNavbar.classList.toggle("showMobNavbar");
 });
-
-// mobNavbarItem1.addEventListener("click", () => {
-//   mobNavbar.style.transform = "translateX(100%)";
-//   mobDropdownMenu1.classList.toggle("visible");
-// });
-// mobNavbarItem2.addEventListener("click", () => {
-//   mobNavbar.style.transform = "translateX(100%)";
-//   mobDropdownMenu2.classList.toggle("visible");
-// });
-// mobNavbarItem3.addEventListener("click", () => {
-//   mobNavbar.style.transform = "translateX(100%)";
-//   mobDropdownMenu3.classList.toggle("visible");
-// });
-// mobNavbarItem4.addEventListener("click", () => {
-//   mobNavbar.style.transform = "translateX(100%)";
-//   mobDropdownMenu4.classList.toggle("visible");
-// });
-// mobNavbarItem5.addEventListener("click", () => {
-//   mobNavbar.style.transform = "translateX(100%)";
-//   mobDropdownMenu5.classList.toggle("visible");
-// });
-// mobNavbarItem7.addEventListener("click", () => {
-//   mobNavbar.style.transform = "translateX(100%)";
-//   mobDropdownMenu7.classList.toggle("visible");
-// });
-
-// mobDropdownItemBack1.addEventListener("click", () => {
-//   mobDropdownMenu1.style.transform = "translateX(0%)";
-//   mobNavbar.style.transform = "translateX(0)";
-//   mobDropdownMenu1.classList.toggle("visible");
-// });
-// mobDropdownItemBack2.addEventListener("click", () => {
-//   mobDropdownMenu2.style.transform = "translateX(0%)";
-//   mobNavbar.style.transform = "translateX(0)";
-//   mobDropdownMenu2.classList.toggle("visible");
-// });
-// mobDropdownItemBack3.addEventListener("click", () => {
-//   mobDropdownMenu3.style.transform = "translateX(0%)";
-//   mobNavbar.style.transform = "translateX(0)";
-//   mobDropdownMenu3.classList.toggle("visible");
-// });
-// mobDropdownItemBack4.addEventListener("click", () => {
-//   mobDropdownMenu4.style.transform = "translateX(0%)";
-//   mobNavbar.style.transform = "translateX(0)";
-//   mobDropdownMenu4.classList.toggle("visible");
-// });
-// mobDropdownItemBack5.addEventListener("click", () => {
-//   mobDropdownMenu5.style.transform = "translateX(0%)";
-//   mobNavbar.style.transform = "translateX(0)";
-//   mobDropdownMenu5.classList.toggle("visible");
-// });
-// mobDropdownItemBack7.addEventListener("click", () => {
-//   mobDropdownMenu7.style.transform = "translateX(0%)";
-//   mobNavbar.style.transform = "translateX(0)";
-//   mobDropdownMenu7.classList.toggle("visible");
-// });
 
 storeListPackages.addEventListener("click", () => {
   storeListLink1.classList.add("dark-color");
