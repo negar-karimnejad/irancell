@@ -9,7 +9,21 @@ Media Queries
 @media (max-width: 380px) {
 }
 
-@media (max-width: 400px) {
+@media (max-width: 450px) {
+  .section-heading h3 {
+    font-size: 1.7rem;
+  }
+  .section-heading a {
+    font-size: 1.2rem;
+  }
+  .quick-links-section {
+    width: 100%;
+  }
+  .quick-link-section span {
+    border: none;
+    width: 5rem;
+    height: 5rem;
+  }
 }
 
 @media (max-width: 576px) {
@@ -24,7 +38,7 @@ Media Queries
   .description-tabs-right {
     text-align: center;
   }
-  .newsletter{
+  .newsletter {
     width: 70%;
   }
 }
@@ -67,7 +81,7 @@ Media Queries
   }
   .quick-link-section {
     flex: none;
-    width: 48%;
+    width: 48.5%;
     font-size: 1.3rem;
     height: 7rem;
     line-height: 1.8rem;
@@ -211,7 +225,6 @@ Media Queries
   .info-btn {
     margin-bottom: 1rem;
   }
- 
 }
 
 @media (max-width: 996px) {

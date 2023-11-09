@@ -170,6 +170,7 @@ html {
   box-sizing: border-box;
   font-size: 10px;
   scroll-behavior: smooth;
+  overflow-x: hidden;
 }
 
 *,
@@ -182,7 +183,6 @@ body {
   direction: rtl;
   font-size: 1.2rem;
   font-family: var(--primary-font);
-  overflow-x: hidden;
   line-height: 1.5;
 }
 body::-webkit-scrollbar {
@@ -200,7 +200,7 @@ h4 {
   font-size: 1.5rem;
   font-weight: 900;
 }
-button{
+button {
   cursor: pointer;
 }
 .btn {
@@ -221,10 +221,13 @@ Header
 ==========================================================================
 */
 header {
-  width: 100%;
+  margin: 0;
+  padding: 0;
+  width: 100% !important;
   background-color: var(--black);
   display: flex;
   font-family: var(--bold-font);
+  position: relative;
 }
 .header__right-wrapper {
   display: flex;
@@ -264,7 +267,7 @@ header {
   display: none;
 }
 .rotatePositive {
-  transform: translate3d(0, 7px, 0) rotate(45deg);
+  transform: translate3d(0, 8px, 0) rotate(45deg);
   transform-origin: center center;
 }
 .rotateNegative {
@@ -346,7 +349,12 @@ header {
   margin: 1rem;
   color: var(--gray);
 }
-
+.swiper1,
+.swiper2,
+.swiper3,
+.swiper4 {
+  overflow: hidden;
+}
 .swiper1 {
   margin-top: 4rem;
   margin-bottom: 1rem;
@@ -388,8 +396,9 @@ header {
 
 .mobile-dont-show__wrapper {
   display: flex;
-  width: 80%;
-  justify-content: space-evenly;
+  width: 60%;
+  justify-content: space-between;
+  align-items: center;
   position: relative;
   z-index: 10;
 }
@@ -399,7 +408,7 @@ header {
   align-items: center;
 }
 .mobile-dont-show .bottom-link1 {
-  padding-left: 1rem;
+  transform: translateX(70%);
 }
 .mobile-dont-show .bottom-link2 {
   position: relative;
@@ -531,6 +540,7 @@ header {
   justify-content: space-around;
 }
 .mob-navbar {
+  overflow: hidden;
   display: none;
   transition: all 500ms ease-in;
 }
@@ -587,6 +597,8 @@ Main
 .main-section {
   width: 83%;
   margin: auto;
+  position: relative;
+  overflow: hidden;
 }
 
 .section {
@@ -596,6 +608,7 @@ Main
 .section-heading {
   height: 100%;
   display: flex;
+  flex-wrap: nowrap;
   justify-content: space-between;
   align-items: center;
   margin-bottom: 3rem;
@@ -616,6 +629,7 @@ Main Slider
 ==========================================================================
 */
 .swiper2 {
+  width: 100%;
   position: relative;
   height: 39vw;
   cursor: pointer !important;
@@ -740,10 +754,11 @@ Quick Links
 ==========================================================================
 */
 .quick-links-section {
+  padding: 1rem;
   margin-top: -4vw;
   display: flex;
   justify-content: space-between;
-  gap: 15px;
+  row-gap: 15px;
 }
 .quick-link-section {
   background-color: var(--white);
@@ -771,7 +786,9 @@ Quick Links
   margin-left: 0.5vw;
   overflow: hidden;
 }
-
+.quick-link-section p {
+  font-size: 1.2rem;
+}
 .quick-link-section:hover {
   transform: scale(1.08);
   color: var(--yellow);
@@ -916,21 +933,22 @@ Latest Slider
 
 .swiper3 {
   width: 100%;
+  height: 40rem;
+  /* position: relative; */
 }
 .swiper-slide3 {
-  width: 36.5rem !important;
-  height: 27rem !important;
-  border: none;
+  width: 100%;
+  height: 30rem !important;
   box-shadow: 0 0 8px #5757577a;
   border-radius: 2rem;
-  margin: 1rem 0;
+  margin: 5rem 1rem;
   overflow: hidden;
-  cursor: pointer;
 }
 
 .latest .swiper-slide3 img {
-  width: 100%;
-  height: 100%;
+  width: 1000% !important;
+  height: 30% !important;
+  overflow: hidden;
 }
 
 .swiper-slide3::after {
@@ -955,11 +973,6 @@ Latest Slider
   color: var(--white);
   z-index: 10;
   line-height: 1.6;
-}
-
-.swiper3 .swiper-button-prev,
-.swiper3 .swiper-button-next {
-  top: 16rem !important;
 }
 
 /* 
@@ -1634,7 +1647,7 @@ Scrollbar
 */
 .scrollbar {
   position: fixed;
-  left: 2%;
+  left: 4%;
   bottom: 5%;
   width: 5rem;
   height: 5rem;
@@ -1661,7 +1674,7 @@ No Talk
 */
 .no-talk {
   position: fixed;
-  right: 2%;
+  right: 5%;
   bottom: 5%;
   width: 5rem;
   height: 5rem;

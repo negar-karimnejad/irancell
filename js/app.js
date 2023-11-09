@@ -87,61 +87,61 @@ mobMenu.addEventListener("click", () => {
   mobNavbar.classList.toggle("showMobNavbar");
 });
 
-mobNavbarItem1.addEventListener("click", () => {
-  mobNavbar.style.transform = "translateX(100%)";
-  mobDropdownMenu1.classList.toggle("visible");
-});
-mobNavbarItem2.addEventListener("click", () => {
-  mobNavbar.style.transform = "translateX(100%)";
-  mobDropdownMenu2.classList.toggle("visible");
-});
-mobNavbarItem3.addEventListener("click", () => {
-  mobNavbar.style.transform = "translateX(100%)";
-  mobDropdownMenu3.classList.toggle("visible");
-});
-mobNavbarItem4.addEventListener("click", () => {
-  mobNavbar.style.transform = "translateX(100%)";
-  mobDropdownMenu4.classList.toggle("visible");
-});
-mobNavbarItem5.addEventListener("click", () => {
-  mobNavbar.style.transform = "translateX(100%)";
-  mobDropdownMenu5.classList.toggle("visible");
-});
-mobNavbarItem7.addEventListener("click", () => {
-  mobNavbar.style.transform = "translateX(100%)";
-  mobDropdownMenu7.classList.toggle("visible");
-});
+// mobNavbarItem1.addEventListener("click", () => {
+//   mobNavbar.style.transform = "translateX(100%)";
+//   mobDropdownMenu1.classList.toggle("visible");
+// });
+// mobNavbarItem2.addEventListener("click", () => {
+//   mobNavbar.style.transform = "translateX(100%)";
+//   mobDropdownMenu2.classList.toggle("visible");
+// });
+// mobNavbarItem3.addEventListener("click", () => {
+//   mobNavbar.style.transform = "translateX(100%)";
+//   mobDropdownMenu3.classList.toggle("visible");
+// });
+// mobNavbarItem4.addEventListener("click", () => {
+//   mobNavbar.style.transform = "translateX(100%)";
+//   mobDropdownMenu4.classList.toggle("visible");
+// });
+// mobNavbarItem5.addEventListener("click", () => {
+//   mobNavbar.style.transform = "translateX(100%)";
+//   mobDropdownMenu5.classList.toggle("visible");
+// });
+// mobNavbarItem7.addEventListener("click", () => {
+//   mobNavbar.style.transform = "translateX(100%)";
+//   mobDropdownMenu7.classList.toggle("visible");
+// });
 
-mobDropdownItemBack1.addEventListener("click", () => {
-  mobDropdownMenu1.style.transform = "translateX(0%)";
-  mobNavbar.style.transform = "translateX(0)";
-  mobDropdownMenu1.classList.toggle("visible");
-});
-mobDropdownItemBack2.addEventListener("click", () => {
-  mobDropdownMenu2.style.transform = "translateX(0%)";
-  mobNavbar.style.transform = "translateX(0)";
-  mobDropdownMenu2.classList.toggle("visible");
-});
-mobDropdownItemBack3.addEventListener("click", () => {
-  mobDropdownMenu3.style.transform = "translateX(0%)";
-  mobNavbar.style.transform = "translateX(0)";
-  mobDropdownMenu3.classList.toggle("visible");
-});
-mobDropdownItemBack4.addEventListener("click", () => {
-  mobDropdownMenu4.style.transform = "translateX(0%)";
-  mobNavbar.style.transform = "translateX(0)";
-  mobDropdownMenu4.classList.toggle("visible");
-});
-mobDropdownItemBack5.addEventListener("click", () => {
-  mobDropdownMenu5.style.transform = "translateX(0%)";
-  mobNavbar.style.transform = "translateX(0)";
-  mobDropdownMenu5.classList.toggle("visible");
-});
-mobDropdownItemBack7.addEventListener("click", () => {
-  mobDropdownMenu7.style.transform = "translateX(0%)";
-  mobNavbar.style.transform = "translateX(0)";
-  mobDropdownMenu7.classList.toggle("visible");
-});
+// mobDropdownItemBack1.addEventListener("click", () => {
+//   mobDropdownMenu1.style.transform = "translateX(0%)";
+//   mobNavbar.style.transform = "translateX(0)";
+//   mobDropdownMenu1.classList.toggle("visible");
+// });
+// mobDropdownItemBack2.addEventListener("click", () => {
+//   mobDropdownMenu2.style.transform = "translateX(0%)";
+//   mobNavbar.style.transform = "translateX(0)";
+//   mobDropdownMenu2.classList.toggle("visible");
+// });
+// mobDropdownItemBack3.addEventListener("click", () => {
+//   mobDropdownMenu3.style.transform = "translateX(0%)";
+//   mobNavbar.style.transform = "translateX(0)";
+//   mobDropdownMenu3.classList.toggle("visible");
+// });
+// mobDropdownItemBack4.addEventListener("click", () => {
+//   mobDropdownMenu4.style.transform = "translateX(0%)";
+//   mobNavbar.style.transform = "translateX(0)";
+//   mobDropdownMenu4.classList.toggle("visible");
+// });
+// mobDropdownItemBack5.addEventListener("click", () => {
+//   mobDropdownMenu5.style.transform = "translateX(0%)";
+//   mobNavbar.style.transform = "translateX(0)";
+//   mobDropdownMenu5.classList.toggle("visible");
+// });
+// mobDropdownItemBack7.addEventListener("click", () => {
+//   mobDropdownMenu7.style.transform = "translateX(0%)";
+//   mobNavbar.style.transform = "translateX(0)";
+//   mobDropdownMenu7.classList.toggle("visible");
+// });
 
 storeListPackages.addEventListener("click", () => {
   storeListLink1.classList.add("dark-color");

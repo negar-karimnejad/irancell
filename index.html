@@ -116,7 +116,7 @@
             >
           </li>
         </ul>
-        <div class="mob-dropdown-menu mob-dropdown-menu1">
+        <!-- <div class="mob-dropdown-menu mob-dropdown-menu1">
           <ul>
             <li class="mob-dropdown-item-back mob-dropdown-item-back1">
               <a href="javascript:void(0)">
@@ -278,7 +278,7 @@
               <a href="javascript:void(0)">پایداری و سرمایه گذاری اجتماعی</a>
             </li>
           </ul>
-        </div>
+        </div> -->
       </div>
       <div class="header__right-wrapper">
         <div class="mob-menu">
@@ -548,7 +548,9 @@
                     </div>
                   </li>
                   <li class="navbar__item navbar__item8">
-                    <a class="navbar__link" href="javascript:void(0)">ترابرد به ایرانسل</a>
+                    <a class="navbar__link" href="javascript:void(0)"
+                      >ترابرد به ایرانسل</a
+                    >
                   </li>
                 </ul>
               </div>
@@ -664,7 +666,7 @@
               xmlns="http://www.w3.org/2000/svg"
               height="20"
               viewBox="0 96 960 960"
-              width="20"
+              width="18"
             >
               <path
                 d="M286.788 975Q257 975 236 953.788q-21-21.213-21-51Q215 873 236.212 852q21.213-21 51-21Q317 831 338 852.212q21 21.213 21 51Q359 933 337.788 954q-21.213 21-51 21Zm400 0Q657 975 636 953.788q-21-21.213-21-51Q615 873 636.212 852q21.213-21 51-21Q717 831 738 852.212q21 21.213 21 51Q759 933 737.788 954q-21.213 21-51 21ZM205 255h589.074q22.964 0 34.945 21Q841 297 829 318L694 561q-11 19-28.559 30.5Q647.881 603 627 603H324l-56 104h491v60H277q-42 0-60.5-28t.5-63l64-118-152-322H51v-60h117l37 79Z"
@@ -678,7 +680,7 @@
               xmlns="http://www.w3.org/2000/svg"
               height="20"
               viewBox="0 96 960 960"
-              width="20"
+              width="19"
             >
               <path
                 d="M480 575q-66 0-108-42t-42-108q0-66 42-108t108-42q66 0 108 42t42 108q0 66-42 108t-108 42ZM160 896v-94q0-38 19-65t49-41q67-30 128.5-45T480 636q62 0 123 15.5T731 696q31 14 50 41t19 65v94H160Z"
@@ -1155,7 +1157,7 @@
           <span>
             <img src="./images/codes.png" alt="" width="35" />
           </span>
-          <h4>کدهای دستوری ایرانسل</h4>
+          <p>کدهای دستوری ایرانسل</p>
         </div>
         <div class="quick-link-section hidden-quick-link">
           <span>
@@ -1196,12 +1198,12 @@
               />
             </svg>
           </span>
-          <h4>پرداخت قبض سیم کارت دائمی</h4>
+          <p>پرداخت قبض سیم کارت دائمی</p>
         </div>
       </div>
       <div class="main-section section">
         <div class="section-heading">
-          <h2>تازه‌ترین‌ها در ایرانسل</h2>
+          <h3>تازه‌ترین‌ها در ایرانسل</h3>
           <a href="javascript:void(0)"
             >مشاهده اخبار
             <svg
@@ -1216,8 +1218,8 @@
             </svg>
           </a>
         </div>
-        <div class="swiper swiper3">
-          <div class="swiper-wrapper swiper-wrapper3">
+        <div class="swiper swiper4">
+          <div class="swiper-wrapper swiper-wrapper4">
             <div class="swiper-slide swiper-slide3">
               <img
                 class="slide-img"
@@ -1261,13 +1263,11 @@
               </div>
             </div>
           </div>
-          <div class="swiper-button-prev"></div>
-          <div class="swiper-button-next"></div>
         </div>
       </div>
       <div class="main-section section">
         <div class="section-heading">
-          <h2>محصولات دیجیتال</h2>
+          <h3>محصولات دیجیتال</h3>
           <a href="javascript:void(0)"
             >همه محصولات
             <svg
@@ -1510,7 +1510,7 @@
       </div>
       <div class="main-section section">
         <div class="section-heading">
-          <h2>فروشگاه</h2>
+          <h3>فروشگاه</h3>
           <a href="javascript:void(0)"
             >برو به فروشگاه
             <svg
@@ -3098,30 +3098,6 @@
         },
       });
 
-      const swiper3 = new Swiper(".swiper3", {
-        loop: true,
-        slidesPerView: 3,
-        spaceBetween: 15,
-        allowTouchMove: false,
-        navigation: {
-          nextEl: ".swiper-button-next",
-          prevEl: ".swiper-button-prev",
-        },
-        breakpoints: {
-          320: {
-            slidesPerView: 1,
-            spaceBetween: 15,
-          },
-          500: {
-            slidesPerView: 1,
-            spaceBetween: 15,
-          },
-          640: {
-            slidesPerView: 1,
-            spaceBetween: 15,
-          },
-        },
-      });
       const swiper4 = new Swiper(".swiper4", {
         loop: true,
         slidesPerView: 3,
