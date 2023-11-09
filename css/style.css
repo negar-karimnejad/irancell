@@ -759,13 +759,14 @@ Quick Links
   display: flex;
   justify-content: space-between;
   row-gap: 15px;
+  column-gap: 15px;
 }
 .quick-link-section {
   background-color: var(--white);
   height: 8vw;
   padding: 0 0.8rem;
   border-radius: 1rem;
-  box-shadow: 0 0 10px #7e7e7e84;
+  box-shadow: 0 0 10px #98868684;
   display: flex;
   align-items: center;
   font-family: var(--bold-font);
@@ -990,13 +991,17 @@ Application
   width: 100%;
   height: 9.5rem;
   background-color: #252525;
-  position: relative;
 }
 .application-list {
   width: 83%;
   height: 100%;
   display: flex;
   justify-content: space-between;
+  position: absolute;
+  bottom: 0;
+  right: 0;
+  left: 0;
+  margin: auto;
 }
 
 .application {
@@ -1004,13 +1009,12 @@ Application
   height: 13rem;
   display: flex;
   flex-direction: column;
-  justify-content: space-evenly;
   align-items: center;
   text-align: center;
   cursor: pointer;
   color: transparent;
   font-family: var(--bold-font);
-  padding: 0 0.3rem;
+  padding: 2rem 0.3rem;
   border-radius: 3rem;
   transition: all 200ms cubic-bezier(0.175, 0.885, 0.32, 1.275);
 }
