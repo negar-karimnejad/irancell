@@ -5,15 +5,15 @@ Font Face
 */
 @font-face {
   font-family: "Material Design Icons";
-  src: url("/font/MTNIrancell-Light.ttf") format("truetype");
+  src: url("./../font/MTNIrancell-Light.ttf") format("truetype");
 }
 @font-face {
   font-family: "Material Design Icons_Bold";
-  src: url("/font/MTNIrancell-Bold.ttf") format("truetype");
+  src: url("./../font/MTNIrancell-Bold.ttf") format("truetype");
 }
 @font-face {
   font-family: "Material Design Icons_ExtraLight";
-  src: url("/font/MTNIrancell-ExtraLight.ttf") format("truetype");
+  src: url("./../font/MTNIrancell-ExtraLight.ttf") format("truetype");
 }
 
 /* 
