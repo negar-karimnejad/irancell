@@ -2,9 +2,10 @@
 
 <section display="flex">
 <img src="images/readme01.png" />
-<img src="images/readme02.png" />
-<img src="images/readme03.png" />
-<img src="images/readme04.png" />
+  <hr/>
+<img src="images/readme02.png" width="330" />
+<img src="images/readme03.png" width="330" />
+<img src="images/readme04.png" width="330" />
 </section>
 
-You can see this repo in [this URL](https://negar-karimnejad.github.io/irancell/)
+<h3 align="center"><a href="https://negar-karimnejad.github.io/irancell/" target="_blank">You can see this repo online 💡</a></h3>
