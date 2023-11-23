@@ -1,6 +1,6 @@
 # <p align="center">My irancell project</p>
 
-<section display="flex">
+<section width="100%" display="flex" align="center" justify-content="center" gap="2rem">
 <img src="images/readme01.png" />
   <hr/>
 <img src="images/readme02.png" width="330" />
