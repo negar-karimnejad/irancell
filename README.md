@@ -1,5 +1,7 @@
 # <p align="center">My irancell project</p>
 
+<p align="center">Best practice for improving CSS performance</p>
+
 <section width="100%" display="flex" align="center" justify-content="center" gap="2rem">
 <img src="images/readme01.png" />
   <hr/>
